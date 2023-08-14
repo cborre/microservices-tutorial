@@ -48,6 +48,7 @@ spring:
           tutorial-client:
             provider: keycloak
             client-id: tutorial-client
+            scope: openid
             client-secret: pOOYlyIayolg61AQ1WLNQpq7qfY04dD1
             authorization-grant-type: authorization_code
             redirect-uri: "{baseUrl}/login/oauth2/code/tutorial-client"
